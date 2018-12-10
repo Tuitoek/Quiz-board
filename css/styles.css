@@ -23,12 +23,12 @@ h1{
   justify-content: center;
   font-size: 50px;
 }
-/* #number-correct{
+#number-correct{
   color:white;
   font-size: 50px;
   text-transform: uppercase;
 }
-.jumbotron{
+/* .jumbotron{
   color: white;
 }
 #submit{
