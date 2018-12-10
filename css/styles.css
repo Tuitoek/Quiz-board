@@ -31,3 +31,10 @@ h1{
 .jumbotron{
   color: white;
 }
+#submit{
+  color:black;
+  font-size: 30px;
+}
+.jumbotron{
+  display:none;
+}
