@@ -4,37 +4,78 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href="css/styles.css" type="text/css" rel ="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica" rel="stylesheet">
     <title>Quiz Board</title>
   </head>
   <body>
     <h1 align="center">QUIZ BOARD!!</h1>
     <p id="intro">To continue with the quiz,<br> click on the button below!!</p>
     <button type="button" class="btn" name="quiz" align="center">Continue Here</button>
-    <script type="text/javascript"src="scripts.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
+    <br>
     <div class="container">
-     <p>What is the other name of javascript?</p>
-     <div class="radio">
-       <form class="" action="index.html" method="post">
-        <label>
-          <input type="radio" value="shell" checked>
-          Shell
-        </label>
-        <label>
-          <input type="radio"  value="java">
-          Java
-        </label>
-        <label>
-          <input type="radio" value="ECMAScript">
-          ECMAScript
-        </label>
-        
+      <div class="jumbotron">
+      <p><em>Each question answered correctly will be awarded 20 marks!!!</em></p>
+
+      <form class="form">
+      <p>What is your name?</p>
+      <input type="text" name="input1" value="">
+     <p>1.What is the other name of javascript?</p>
+
+          <input type="radio" name="input2" value="shell" checked>
+          <label>Shell</label><br>
+
+          <input type="radio" name="input2" value="java">
+          <label>Java</label><br>
+
+          <input type="radio" name="input2" value="ECMAScript">
+          <label>ECMA</label><br>
+        <br>
+        <p>2.Which is not a data-type?</p>
+
+        <input type="radio" name="input3" value="string">
+          <label for="input3">string</label><br>
+        <input type="radio" name="input3" value="boolean">
+          <label for="input3">boolean</label><br>
+        <input type="radio" name="input3" value="integer">
+          <label for="input3">integer</label><br>
+        <input type="radio" name="input3" value="letters">
+          <label for="input3">letters</label><br>
+          <br>
+      <p>3.What will the code below output?<br>console.log(0.1+5)</p>
+      <input type="radio" name="input4" value="5.1">
+      <label for="input4">5.1</label><br>
+      <input type="radio" name="input4" value="0.6">
+      <label for="input4">0.6</label><br>
+      <input type="radio" name="input4" value="0.15">
+      <label for="input4">0.15</label><br>
+          <br>
+      <p>4.What is jQuery?</p>
+      <input type="radio" name="input5" value="A library of Javascript functions.">
+      <label for="input5">"A library of Javascript functions."</label> <br>
+      <input type="radio" name="input5" value="A library of CSS styles.">
+      <label for="input5">A library of CSS styles."</label><br>
+      <br>
+    <p>5.Which one is NOT a form input type?</p>
+       <input type="radio" name="input6" value="Color">
+         <label for="input6">Color</label><br>
+       <input type="radio" name="input6" value="Checkbox">
+         <label for="input6">Checkbox</label><br>
+       <input type="radio" name="input6" value="Radio button">
+         <label for="radio">Radio Button</label><br>
+       <input type="radio" name="input6" value="prompt">
+         <label for="input6">prompt</label><br>
+         <br>
+        <button type="button" id="submit" name="submit" onclick="check()">Submit</button>
         </form>
-      </div>
+          </div>
     </div>
+    <div id="after-submit"
+    <p id = "number-corect">" " has scored " ".</p>
+    </div>
+    <script type="text/javascript"src="js/scripts.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   </body>
 </html>
