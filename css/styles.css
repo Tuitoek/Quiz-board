@@ -9,6 +9,7 @@ body{
 h1{
   font-family: 'Dosis', sans-serif;
   font-size:80px;
+  font-weight: bolder;
   color: white;
 }
 #intro{
@@ -22,8 +23,10 @@ h1{
   justify-content: center;
   font-size: 50px;
 }
-#after-submit{
-  display:none;
+/* #number-correct{
+  color:white;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 .jumbotron{
   color: white;
@@ -32,3 +35,6 @@ h1{
   color:black;
   font-size: 30px;
 }
+.jumbotron{
+  display:none;
+} */
