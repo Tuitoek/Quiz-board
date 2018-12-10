@@ -21,7 +21,7 @@ $(document).ready(function() {
       if (radio[1] == "letters"){
         correct++;
       }
-      if (radio[2] == 5.1){
+      if (radio[2] == "5.1"){
         correct++;
       }
       if (radio[3] == "A library of Javascript functions"){
@@ -32,18 +32,6 @@ $(document).ready(function() {
       }
 
       $("p#number-correct").html("Your score is " + correct + "/5");
-
-
-
-      // $("#after-submit").submit(function(event) {
-      //   $("#number-correct").text(function(event){
-      //     console.log("You" + "have" + "got" + correct + "correct");
-      //   });
-      // });
-
-      // event.preventDefault();
-
-
 
 });
 });
