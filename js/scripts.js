@@ -30,8 +30,8 @@ $(document).ready(function() {
       if (radio[4] == "prompt"){
         correct++;
       }
-
+      $(".jumbotron").hide(function(event){
       $("p#number-correct").html("Your score is " + correct + "/5");
-
+      });
 });
 });
